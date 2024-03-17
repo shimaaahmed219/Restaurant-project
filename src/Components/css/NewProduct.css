@@ -1,0 +1,35 @@
+.new-product {
+  background: #ffbc29;
+  border-radius: 20px 50px 25px 70px;
+}
+.new-product {
+}
+.new-product .dec {
+  flex: 1;
+}
+.new-product .fev {
+  flex: 1;
+  text-align: right;
+  flex-direction: column;
+ 
+}
+
+ .fev img {
+  border-radius: 50%;
+  position: relative;
+  top: -50px;
+  right: -25px;
+}
+.new-product .des {
+  flex: 1;
+  flex-direction: column;
+}
+
+.fev-icon {
+  cursor: pointer;
+  background-color:#aa832fa4;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 5px  #cfcdcd);
+}

@@ -1,0 +1,50 @@
+
+.icon{
+    font-size: 50px;
+    color: #ffbc29;
+}
+.brand{
+   position:flex;
+   top:0;
+   /* left: 0; */
+    direction: rtl;
+    background-color:#042331 ;
+    margin-top: 20px;
+    
+}
+Form .Form-Control{
+   
+    border-radius: 20px;
+   opacity:0.5 ;
+    
+}
+Form .Form-Control::placeholder{
+    color: #000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-icon{
+    font-size: 20px;
+    color:#fff;
+}
+.menu{
+    height: inherit;
+    background-color: #042331;
+    /* position: relative; */
+    border-radius: 50%;
+    margin-top: -25px;
+}
+.menu .icon-style{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fcfcfc;
+  
+ 
+
+}
+
+.icon-menu{
+
+    font-size: 25px;
+ } 

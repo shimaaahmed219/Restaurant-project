@@ -1,0 +1,12 @@
+.cat-btn{
+    background-color: #f4f2f2;
+    width: 60px;
+    text-align: center;
+}
+.cat-btn:hover{
+    background-color:#ffbc29;
+    
+} 
+.category {
+    padding-top: 200px;
+}

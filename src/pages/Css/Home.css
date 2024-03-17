@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+}
+.bunner{
+    background: #1c2647;
+}
+
+.bunner h1{
+    text-shadow:2px 2px black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    user-select: none;
+   
+}
+.bunner .btn{
+border: 1px solid #ffbc29;
+border-radius: 20px;
+}
+.bunner .btn:hover{
+    background-color: #ffbc29;
+}

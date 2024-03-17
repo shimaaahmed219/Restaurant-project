@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.register-form {
+  background-color: #eeee;
+  min-height:100vh ;
+  
+}
+
+.register-form input {
+  border: none;
+  background: #dad6d6;
+
+  border-radius: 20px;
+  padding: 10px 15px;
+ 
+}
+.register-form input:focus{
+  outline: none;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.register-form .btn {
+  border-radius: 20px;
+  background: #ffbc29;
+}
+.register-form .btn:hover {
+  background: #4771fb;
+}
+.register-form .custom-file {
+  background: url("/src/images/user.jfif") center #ffbc29;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.register-form .custom-file input[type="file"] {
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}

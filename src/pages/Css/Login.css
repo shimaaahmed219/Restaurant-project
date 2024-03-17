@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.container-login{
+    background: #eeee;
+}
+.container-login .form input{
+    border: none;
+    background: #dad6d6;
+    /* border-bottom: 1px solid #eeee; */
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.container-login .form input:focus{
+    outline: none;
+}
+hr{
+ height: 3px;
+ width: 10%;
+color:#ffbc29; 
+
+}
+.forget-pass{
+    float: right;
+    text-decoration: none;
+    color:#828181;
+    font-size: 15px;
+}
+.forget-pass:hover{
+    color:#4771fb;
+}
+.container-login .form .btn {
+    border-radius: 20px;
+    background:#ffbc29;
+}
+.container-login .form.btn:hover{
+    background:#4771fb;
+}

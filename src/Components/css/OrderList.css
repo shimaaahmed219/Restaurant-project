@@ -1,0 +1,13 @@
+.order-list{
+min-height: 650px;
+background-color: #eee;
+}
+.order-list .form-control{
+border-radius:20px;
+}
+.order-list .dil{
+    color:#35f12a;
+}
+.order-list .card-img{
+    height: 100%;
+}

@@ -1,0 +1,42 @@
+.add-product input{
+    background: #f4f2f2;
+    
+}
+.add-product{
+    min-height: 100vh;
+}
+
+.product-file{
+    height: 150px;
+    background: #f4f2f2;
+    border-radius: 10px;
+}
+ input{
+    border-radius: 10px;
+ }
+ .form-select{
+    min-height: 30px;
+ }
+.product-file input[type="file"]{
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+}
+.product-file .camera{
+    color:#ffbc29;
+    font-size: 25px;
+}
+.input-icon{
+    position: absolute;
+    color:#ffbc29;
+    font-size: 25px;
+    margin-top: 22px;
+  
+
+}
+.add-btn{
+    background: #ffbc29;
+    border-radius: 10px;
+
+}
+

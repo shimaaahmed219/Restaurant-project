@@ -1,0 +1,31 @@
+.box{
+   box-shadow:1px 1px 8px gray;
+ 
+}
+.inc,.dec{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: rgb(194, 194, 194);
+    border-radius: 50%;
+}
+.order{
+  margin-top: 55px;
+ margin-left: 50px;
+}
+.price{
+  margin-top: 100px;
+}
+.desc{
+  flex: 1;
+  flex-direction: column;
+  text-align: right;
+}
+
+.length{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border:1px solid orange;
+    border-radius: 50%;
+}

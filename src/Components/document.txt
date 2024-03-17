@@ -1,0 +1,119 @@
+// import React, { useEffect, useState } from "react";
+// import { Button ,Form} from "react-bootstrap";
+
+
+
+// function Logout() {
+  
+//   const [values, setvalues] = useState({
+//     username:'',
+//     password:'',
+//     password_confirmation:'',
+//     email:'',
+//   });
+//   // set error
+ 
+
+//   // handilChang function
+//   const handilChange= (e)=>{
+//     e.preventDefault()
+//     const { name, value } = e.target;
+//     setvalues({ ...values, [name]: value });
+//   };
+//   const [errors, setErrors] = useState({});
+
+//   // handilsubmit function
+//   const handilSubmit =(e)=>{
+//     // e.preventDefault();
+//     const validationError ={}
+//     if(!values.username.trim()){
+//       validationError.username ='this name is requird'
+//     }else{
+//       validationError.username =''
+//     }
+//     if(!values.password.trim() ||values.password >8){
+//       validationError.password ='please enter password'
+//     }
+//     if(!values.password_confirmation.trim()){
+//       validationError.password_confirmation='this pasword is requird'
+
+//     }
+//     if(!values.email.trim()){
+//       validationError.name ='this name is requird'
+
+//     }else if(/\S+@\S\.\S+/.test(values.email)){
+// validationError.email ='email is requird'
+//     }
+//     setErrors(validationError)
+//     console.log(errors.name);
+//     }
+ 
+//   return (
+//     <div className="container d-flex vh-100 justify-content-center align-items-center">
+//       <Form className="col-12"onSubmit={()=>{handilSubmit()}}>
+//         <input
+//           type="text"
+//           placeholder="name"
+//           name="username"
+//           className="d-block my-5 col-5 m-auto p-2"
+//           onChange={handilChange}
+//         value={values.username}
+//         />
+//        {errors.username &&<span style={{color:'red'}}>{errors.username}</span>}
+//         <input
+//           type="email"
+//           placeholder="email"
+//           className="d-block my-5 col-5 m-auto p-2"
+//           onChange={handilChange}
+//           name="email"
+//         />
+//           {errors.email &&<span style={{color:'red'}}>{errors.email}</span>}
+//         <input
+//           type="password"
+//           placeholder="password"
+//           className="d-block my-5 col-5 m-auto p-2"
+//           onChange={handilChange}
+//           name="password"
+//         />
+//           {errors.password &&<span style={{color:'red'}}>{errors.password}</span>}
+//         <input
+//           type="password"
+//           placeholder=" password_confirmation"
+//           className="d-block my-5 col-5 m-auto p-2"
+//           onChange={handilChange}
+//           name="password_confirmation"
+//         />
+          
+//           {errors.password_confirmation &&<span style={{color:'red'}}>{errors.password_confirmation}</span>}
+       
+//        <input type="submit" className="btn btn-success col-5 m-auto" />
+//       </Form>
+//     </div>
+//   );
+// }
+
+// export default Logout;
+<div className=" container-fluid p-5  row row-cols-3 p-5 m-3">
+      {data.map((d) => (
+        <div
+          className=" new-product d-flex m-auto text-light p-3"
+          style={{ height: "10rem" }}
+          key={d.id}
+        >
+          <div className="des d-flex justify-content-between ">
+          <span className="fev-icon text-center">
+              <AiFillHeart className="fs-5" />
+            </span>
+            <h4>${d.price}</h4>
+          </div>
+          <div className="fev d-flex justify-content-between">
+          <img src={d.photo} className="ms-auto"/>
+            <h4 className="">{d.name}</h4>
+           
+          </div>
+         
+        </div>
+         
+      ))}
+      
+    </div>
